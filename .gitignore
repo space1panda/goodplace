@@ -1,0 +1,6 @@
+*pyc
+*png
+.env
+.gradio
+.vscode
+*.lock

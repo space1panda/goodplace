@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "goodplace"
+version = "0.1.0"
+description = "Agentic AI for tourism information"
+authors = ["Iegor Mykhailov"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+black = "^24.10.0"
+isort = "^5.13.2"
+gradio = "^5.1.0"
+langchain = "^0.3.3"
+langchain-community = "^0.3.2"
+langchain-openai = "^0.2.2"
+langgraph = "^0.2.38"
+mypy = "^1.12.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
