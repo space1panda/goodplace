@@ -1,7 +1,7 @@
 import gradio as gr
 from coords import get_location_from_ip
 
-MAPS_API_KEY = "AIzaSyDzYxuvmi6YSfr0VyzkZrIg9DbHGGN7axE"
+MAPS_API_KEY = ""
 PARAMETERS = "q=Galeria Polnocna"
 MAP_MODE = "place"
 lat, longt = get_location_from_ip()

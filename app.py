@@ -16,7 +16,7 @@ css = """
 """
 
 MAP_MODE = 'place'
-MAPS_API_KEY = "AIzaSyDzYxuvmi6YSfr0VyzkZrIg9DbHGGN7axE"
+MAPS_API_KEY = ""
 
 
 def get_current_map(name):
