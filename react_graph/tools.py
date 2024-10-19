@@ -10,6 +10,7 @@ def current_date_and_time(input: str) -> str:
     """Function returns current date and time"""
     return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
+
 @tool
 def current_location_from_ip(input: str) -> Tuple[str, str]:
     """Function returns longitude and latitude of the user's device"""
@@ -29,5 +30,11 @@ def current_location_from_ip(input: str) -> Tuple[str, str]:
 
 
 def get_simple_tools() -> List[Callable]:
-    tools = [TavilySearchResults(max_results=1), current_date_and_time, current_location_from_ip]
+    tools = [
+        TavilySearchResults(
+            max_results=1, include_images=True, include_raw_content=True
+        ),
+        current_date_and_time,
+        current_location_from_ip,
+    ]
     return tools

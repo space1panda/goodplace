@@ -16,6 +16,7 @@ def get_location_from_ip():
     except requests.exceptions.RequestException as e:
         return f"Error retrieving location: {e}"
 
+
 # Example usage
 
 if __name__ == "__main__":
